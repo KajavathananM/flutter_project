@@ -1,0 +1,76 @@
+name: flutterproject
+description: House Rental App For Buyers to buy a new house as well as doing online registering and online Rental payment
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.3.0 <3.0.0"
+
+#carousel_slider: Responisble for Image slider for House Pictures
+#google_maps_flutter:Responsible for Google Map View
+#cloud_firestore:Responisble for real-time Database operation from Firevase
+#firebase_auth: Responsible for User Authorization
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  carousel_slider: ^1.3.0  
+  #google_fonts: ^0.3.10
+  google_maps_flutter: ^0.5.11
+  cupertino_icons: ^0.1.2
+  flutter_launcher_icons: "^0.7.0"
+  firebase_auth: ^0.15.5+3
+  #FIRESTORE
+  cloud_firestore: ^0.13.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # Importing Image assets from Assets Folder in the project
+  assets:
+    - assets/images/GoldenKeyHomesLogo.png
+    - assets/images/BackgroundProject.jpg
+    - assets/images/HouseIndicator.png
+    - assets/images/HomeIcon.png
+    - assets/images/UserIcon.png
+    - assets/images/Houses/House1.jpg
+    - assets/images/Houses/House2.jpg
+    - assets/images/Houses/House3.jpg
+    - assets/images/Houses/House4.jpg
+    - assets/images/Houses/House5.jpg
+    - assets/images/Houses/Appartment1.jpg
+    - assets/images/Houses/Appartment2.jpg
+    - assets/images/Houses/Appartment3.jpg
+    - assets/images/Houses/Rooms/bedroom.jpg
+    - assets/images/Houses/Rooms/hall.jpg
+    - assets/images/Houses/Rooms/kitchen.jpg
+    - assets/images/Houses/Rooms/garden.jpg
+    
+ #To add Custom Icon Map Marker in HouseListPage
+  fonts:
+   - family: mapMarker
+     fonts:
+       - asset: assets/Icons/map-marker.ttf  
+   
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

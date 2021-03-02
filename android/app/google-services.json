@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "152268482974",
+    "firebase_url": "https://ctse-project.firebaseio.com",
+    "project_id": "ctse-project",
+    "storage_bucket": "ctse-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152268482974:android:3dcbfae305ea34511b4e8f",
+        "android_client_info": {
+          "package_name": "com.example.flutterproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152268482974-q0p0do0aontevrm2hfdf9lm8vc0etobk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_fH8SbXAKriYrW0DPsRjiUiIjFmqatLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152268482974-q0p0do0aontevrm2hfdf9lm8vc0etobk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
